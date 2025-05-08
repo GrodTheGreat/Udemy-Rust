@@ -1,6 +1,6 @@
+const TAX_RATE: f64 = 7.25;
+
 fn main() {
-    let grams_of_protein = "100.345";
-    let grams_of_protein = 100.345;
-    let mut grams_of_protein = 100;
-    grams_of_protein = 105;
+    let income: i32 = 100_000;
+    println!("My income is {income} and my tax rate is {TAX_RATE}");
 }
